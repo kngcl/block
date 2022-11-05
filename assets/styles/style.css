@@ -29,7 +29,7 @@ body {
 .right-top-content,
 .right-medium-content,
 .right-bottom-content {
-  box-shadow:0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+  box-shadow:0 4px 10px 0 #00000033, 0 4px 20px 0 #00000030;
   background-color: #fff;
 }
 
@@ -94,6 +94,11 @@ body {
   margin-top: -10px;
 }
 
+.boldness-bottom {
+  padding: 0.4rem;
+  border-radius: 50%;
+}
+
 .left-read-me-top .more-top:hover,
 .left-read-me-bottom .more-bottom:hover{
   background-color: #99958f;
@@ -108,10 +113,6 @@ body {
 
 .right-section {
   width: 100%;
-}
-
-.right-top-content {
-
 }
 
 .right-medium-heading {
@@ -173,7 +174,6 @@ body {
   background: #616161;
   display: flex;
   padding: 1rem 2rem;
-  width: 100%;
   color: #fff;
 }
 
@@ -201,4 +201,24 @@ body {
 
 .footer-link {
   color: #fff;
+}
+
+/* responsiveness */
+@media screen and (max-width: 768px ){
+  body {
+    overflow-x: hidden;
+  }
+
+  .left-right {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left-top-section {
+    width: 100%;
+  }
+
+  .left-section {
+    width: 100%;
+  }
 }
