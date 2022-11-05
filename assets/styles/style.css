@@ -1,0 +1,74 @@
+* {
+  background-color:  #f1f1f1;
+}
+
+.heading-details {
+  text-align: center;
+}
+
+.heading-title {
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* left-right */
+.left-right {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 50px;
+}
+
+/* left section */
+.left-top-section,
+.right-top-section {
+  box-shadow:0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.left-top-section {
+  width:100%;
+}
+
+.left-section {
+  width: 100%;
+}
+
+.left-image {
+  background-image: url("../images/woods.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 250px
+}
+
+/* right */
+.right-picture {
+    width: 100%;
+}
+
+.right-top-section {
+  width: 100%;
+}
+
+.right-middle-image {
+  border: 1px solid black;
+  width: 100%;
+}
+
+.right-middle-image img {
+  width: 50px;
+}
+
+.right-middle-image p {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 1px;
+  border-bottom: 1px solid black;
+}
+
+.bottom-right-paragraph {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  gap: 5px;
+  float: inline-end;
+}
