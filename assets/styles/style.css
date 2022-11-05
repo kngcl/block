@@ -21,8 +21,11 @@ body {
 
 /* left section */
 .left-top-section,
-.right-top-section {
+.right-top-content,
+.right-medium-content,
+.right-bottom-content {
   box-shadow:0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+  background-color: #fff;
 }
 
 .left-top-section {
@@ -39,7 +42,7 @@ body {
   background-size: cover;
   background-position: center;
   width: 100%;
-  min-height: 270px;
+  min-height: 35vh;
 }
 
 .left-image-bottom {
@@ -47,7 +50,7 @@ body {
   background-size: cover;
   background-position: center;
   width: 100%;
-  min-height: 270px;
+  min-height: 35vh;
 }
 
 .emphassis-top,
@@ -64,7 +67,7 @@ body {
 
 .left-read-me-top .more-top,
 .left-read-me-bottom .more-bottom {
-  border: 1px solid black;
+  border: 1px solid #d6d5d5;
   width: 10%;
   padding: 1rem;
 }
@@ -98,12 +101,26 @@ body {
     width: 100%;
 }
 
-.right-top-section {
+.right-section {
   width: 100%;
 }
 
+.right-top-content {
+
+}
+
+.right-medium-heading {
+  background-color: #f1f1f1;
+  padding: 0.5rem;
+  font-size: 20px;
+}
+
+.right-top-details {
+  margin: 15px;
+  line-height: 1.6;
+}
+
 .right-middle-image {
-  border: 1px solid black;
   width: 100%;
 }
 
@@ -112,16 +129,35 @@ body {
 }
 
 .right-middle-image p {
-  display: grid;
-  grid-template-columns: auto auto;
-  gap: 1px;
-  border-bottom: 1px solid black;
+  display: flex;
+  border-bottom: 1px solid #cecaca;
+  padding: 0.5rem;
+  gap: 20px;
 }
+
+.bottom-right-heading {
+  padding: 0.5rem;
+  background-color: #f1f1f1;
+  margin-bottom: 15px;
+}
+
 
 .bottom-right-paragraph {
   display: flex;
   flex-wrap: wrap;
-  width: 50%;
   gap: 5px;
-  float: inline-end;
+}
+
+.bottom-right-paragraph p {
+  background-color:  #cecaca;
+  font-size: 13px;
+  padding: 0.1rem;
+  margin: 5px;
+}
+
+.bottom-right-paragraph .travel {
+  background-color: #000;
+  color: #fff;
+  font-size: 15px;
+  
 }
