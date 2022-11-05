@@ -1,6 +1,6 @@
 body {
   background-color:  #f1f1f1;
-  margin: 16px;
+  margin: 30px;
 }
 
 .heading-details {
@@ -26,21 +26,41 @@ body {
 }
 
 .left-top-section {
-  width:65vw;
+  width:62vw;
+  margin-bottom: 50px;
 }
 
 .left-section {
   width: 100%;
 }
 
-.left-image {
+.left-image-top {
   background-image: url("../images/woods.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
-  min-height: 250px
+  min-height: 270px;
 }
 
+.left-image-bottom {
+  background-image: url("../images/bridge.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 270px;
+}
+
+.emphassis-top,
+.empahssis-bottom {
+  color: #838280;
+}
+
+.left-top-details,
+.left-bottom-details {
+  padding: 0.1rem;
+  line-height: 1.5;
+  margin: 2px;
+}
 
 .left-read-me-top .more-top,
 .left-read-me-bottom .more-bottom {
@@ -55,6 +75,7 @@ body {
   justify-content: right;
   margin-top: -60px;
   padding: 1rem;
+  letter-spacing: 1px;
 }
 
 .boldness-top,
