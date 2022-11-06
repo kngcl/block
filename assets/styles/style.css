@@ -1,5 +1,5 @@
 body {
-  background-color:  #f1f1f1;
+  background-color: #f1f1f1;
   overflow-x: hidden;
   margin: 0;
 }
@@ -100,19 +100,16 @@ body {
 }
 
 .left-read-me-top .more-top:hover,
-.left-read-me-bottom .more-bottom:hover{
+.left-read-me-bottom .more-bottom:hover {
   background-color: #99958f;
   cursor: pointer;
 }
 
-
 /* right */
-.right-picture {
+.right-picture,
+.right-section,
+.right-middle-image {
     width: 100%;
-}
-
-.right-section {
-  width: 100%;
 }
 
 .right-medium-heading {
@@ -124,10 +121,6 @@ body {
 .right-top-details {
   margin: 15px;
   line-height: 1.6;
-}
-
-.right-middle-image {
-  width: 100%;
 }
 
 .right-middle-image img {
@@ -146,6 +139,10 @@ body {
   border-bottom: 1px solid #cecaca;
   padding: 0.5rem;
   gap: 20px;
+}
+
+.right-middle-image p:hover {
+  background-color: #cecaca;
 }
 
 .bottom-right-heading {
