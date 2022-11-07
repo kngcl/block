@@ -29,12 +29,12 @@ body {
 .right-top-content,
 .right-medium-content,
 .right-bottom-content {
-  box-shadow:0 4px 10px 0 #00000033, 0 4px 20px 0 #00000030;
+  box-shadow: 0 4px 10px 0 #0003, 0 4px 20px 0 #00000030;
   background-color: #fff;
 }
 
 .left-top-section {
-  width:62vw;
+  width: 62vw;
   margin-bottom: 50px;
 }
 
@@ -109,7 +109,7 @@ body {
 .right-picture,
 .right-section,
 .right-middle-image {
-    width: 100%;
+  width: 100%;
 }
 
 .right-medium-heading {
@@ -128,7 +128,7 @@ body {
 }
 
 .bottom-right-paragraph p {
-  background-color:  #cecaca;
+  background-color: #cecaca;
   font-size: 13px;
   padding: 0.1rem;
   margin: 5px;
@@ -151,7 +151,6 @@ body {
   margin-bottom: 15px;
 }
 
-
 .bottom-right-paragraph {
   display: flex;
   flex-wrap: wrap;
@@ -163,7 +162,6 @@ body {
   background-color: #000;
   color: #fff;
   font-size: 15px;
-  
 }
 
 /* footer */
@@ -192,7 +190,7 @@ body {
 
 .next:hover {
   cursor: pointer;
-  background-color:  #f1f1f1;
+  background-color: #f1f1f1;
   color: #000;
 }
 
@@ -201,7 +199,7 @@ body {
 }
 
 /* responsiveness */
-@media screen and (max-width: 768px ){
+@media screen and (max-width: 768px) {
   body {
     overflow-x: hidden;
   }
