@@ -29,7 +29,7 @@ Knowledge about:
 ## steps
 
 - $ git clone `https://github.com/kngcl/block`
-- $ `cd black`
+- $ `cd block`
 - $ `git checkout feature/footer`
 
 ## Start App
