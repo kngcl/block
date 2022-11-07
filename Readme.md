@@ -1,6 +1,6 @@
 # Block project
 
-Talks about the personality and observation of someone about a place in particular. 
+Talks about the personality and observation of someone about a place in particular.
 
 ## App
 
