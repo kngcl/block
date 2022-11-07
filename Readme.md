@@ -15,7 +15,7 @@ Talks about the personality and observation of someone about a place in particul
 
 - To get a local copy up and running follow these simple example steps.
 - Clone this repository with `https://github.com/kngcl/block` using your terminal.
-- Change to the project directory by entering: cd food in the terminal.
+- Change to the project directory by entering: cd block in the terminal.
 
 ## steps
 
