@@ -24,7 +24,7 @@ Knowledge about:
 
 - To get a local copy up and running follow these simple example steps.
 - Clone this repository with `https://github.com/kngcl/block` using your terminal.
-- Change to the project directory by entering: cd parallax in the terminal.
+- Change to the project directory by entering: cd block in the terminal.
 
 ## steps
 
