@@ -1,6 +1,7 @@
 # Block project
 
 Talks about the personality and observation of someone about a place in particular.
+has two sections, right sections presenting the speaker and the left section presenting places
 
 ## App
 
