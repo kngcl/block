@@ -40,7 +40,7 @@ Knowledge about:
 
 👤 **kngcl**
 
-- GitHub: [@kngcl]https://github.com/kngcl/block)
+- GitHub: [@kngcl](https://github.com/kngcl/block)
 
 ## 📝 License
 
