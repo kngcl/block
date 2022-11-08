@@ -86,6 +86,7 @@ body {
   width: 120px;
   padding: 1rem;
   font-weight: 500;
+  border-radius: 3px;
 }
 
 .left-read-me-top .comment-top,
@@ -117,6 +118,12 @@ body {
 }
 
 /* right */
+.right-top-content,
+.right-medium-content,
+.right-bottom-content {
+  margin-bottom: 50px;
+}
+
 .right-picture,
 .right-section,
 .right-middle-image {
