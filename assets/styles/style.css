@@ -1,19 +1,22 @@
 body {
   background-color: #f1f1f1;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.5;
   overflow-x: hidden;
   margin: 0;
 }
 
 .containers {
-  margin: 30px;
+  margin: 65px;
 }
 
 .heading-details {
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .heading-title {
-  font-size: 30px;
+  font-size: 40px;
   font-family: "Courier New", Courier, monospace;
 }
 
@@ -72,9 +75,10 @@ body {
 
 .left-read-me-top .more-top,
 .left-read-me-bottom .more-bottom {
-  border: 1px solid #d6d5d5;
-  width: 11%;
+  border: 1px solid #ccc;
+  width: 120px;
   padding: 1rem;
+  font-weight: 500;
 }
 
 .left-read-me-top .comment-top,
@@ -101,7 +105,7 @@ body {
 
 .left-read-me-top .more-top:hover,
 .left-read-me-bottom .more-bottom:hover {
-  background-color: #99958f;
+  background-color: #ccc;
   cursor: pointer;
 }
 
@@ -128,7 +132,7 @@ body {
 }
 
 .bottom-right-paragraph p {
-  background-color: #cecaca;
+  background-color: #f1f1f1;
   font-size: 13px;
   padding: 0.1rem;
   margin: 5px;
@@ -215,5 +219,18 @@ body {
 
   .left-section {
     width: 100%;
+  }
+
+  .left-read-me-top .more-top,
+  .left-read-me-bottom .more-bottom {
+    border: 1px solid #ccc;
+    width: 15vw;
+    padding: 1rem;
+    font-size: 2.1vw;
+    font-weight: 500;
+  }
+
+  .mingsum {
+    display: none;
   }
 }
