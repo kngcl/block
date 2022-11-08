@@ -17,7 +17,14 @@ body {
 
 .heading-title {
   font-size: 40px;
+  line-height: 5px;
   font-family: "Courier New", Courier, monospace;
+}
+
+.unkown {
+  background-color: #000;
+  color: #fff;
+  padding: 5px;
 }
 
 /* left-right */
