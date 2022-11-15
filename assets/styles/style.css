@@ -1,242 +1,253 @@
-* {
+body {
+  background-color: #f1f1f1;
   font-family: Raleway, sans-serif;
+  line-height: 1.5;
+  overflow-x: hidden;
   margin: 0;
 }
 
-/* nav-bar */
-.nav-heading {
-  position: fixed;
-  background-image: linear-gradient(#ffffffd2, #fffefebe);
-  columns: 4;
+.containers {
+  margin: 65px;
+}
+
+.heading-details {
   text-align: center;
-  z-index: 1;
-  width: 100%;
-  bottom: 0;
+  margin-bottom: 50px;
 }
 
-.nav-heading a {
-  color: #000;
-  text-decoration: none;
-}
-
-.nav-heading p {
-  padding: 1rem;
-}
-
-.nav-heading p:hover {
-  background-color: #a8a8a8;
-}
-
-/* home */
-.home {
-  background-image: url("https://www.w3schools.com/w3images/wedding_couple.jpg");
-  background-position: center;
-  background-size: cover;
-  min-height: 800px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  line-height: 2;
-  font-size: 30px;
-  letter-spacing: 2px;
-  color: #fff;
-  filter: grayscale(50%);
-}
-
-.home-paragraph {
-  font-size: 22px;
-  letter-spacing: 1vw;
-}
-
-/* Jane-John */
-.jane-john {
-  background-color: #fdd;
-  filter: grayscale(50%);
-}
-
-.jane-john-content {
-  max-width: 904px;
-  margin: auto;
-  line-height: 2;
-  padding: 1rem;
-}
-
-.jane-john-heading {
-  text-align: center;
-  font-size: 30px;
-  padding: 2.5rem;
-  color: #757575;
-}
-
-.jane-john-picture {
-  border-radius: 10px;
-  width: 100%;
-}
-
-.jane-john-paragraph {
-  padding-top: 50px;
-}
-
-.jane-john-button {
-  padding: 1rem;
-  text-align: center;
-}
-
-.jane-john-button-p {
-  padding: 1.5rem;
-}
-
-.jane-john-button a {
-  padding: 1.5rem;
-  font-size: 20px;
-  background-color: #000;
-  color: #fff;
-  text-decoration: none;
-}
-
-.jane-john-button a:hover {
-  background-color: #757575;
-}
-
-/* invite section */
-.invite {
-  background-image: url("https://www.w3schools.com/w3images/flowers.jpg");
-  background-position: center;
-  background-size: cover;
-  min-height: 800px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  line-height: 2;
-  font-size: 50px;
-  letter-spacing: 2px;
-  color: #fff;
-}
-
-.invite-p {
-  font-size: 22px;
-}
-
-/* wedding section */
-.wedding {
-  background-color: #fdd;
-  filter: grayscale(50%);
-}
-
-.wedding-heading {
-  text-align: center;
-  font-size: 30px;
-  padding: 2.5rem;
-  color: #757575;
-}
-
-.wedding-content {
-  max-width: 904px;
-  margin: auto;
-  line-height: 2;
-  text-align: center;
-  padding: 1rem;
-}
-
-.wedding-picture {
-  border-radius: 10px;
-  width: 100%;
-}
-
-.wedding-details {
-  columns: 2;
-  padding: 6vw;
-  line-height: 3;
-}
-
-.wedding-time-paragraph,
-.wedding-location-paragraph {
-  font-size: 25px;
-}
-
-/* rsvp */
-.rsvp {
-  background-color: #fdd;
-  text-align: center;
-  padding: 5rem;
-  line-height: 2.3;
-}
-
-.rsvp-heading {
+.heading-title {
   font-size: 40px;
+  line-height: 5px;
+  font-weight: bolder;
 }
 
-.rsvp-paragraph {
-  font-size: 25px;
-  letter-spacing: 1px;
-  padding-bottom: 5px;
-}
-
-.rsvp .rsvp-button {
-  padding: 1rem 4rem;
-  font-size: 20px;
-  background-color: #f44336;
+.unkown {
+  background-color: #000;
   color: #fff;
-  text-decoration: none;
-  border-radius: 10px;
+  padding: 5px;
 }
 
-.rsvp .rsvp-button:hover {
-  background-color: #757575;
+/* left-right */
+.left-right {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 2vw;
+}
+
+/* left section */
+.left-top-section,
+.right-top-content,
+.right-medium-content,
+.right-bottom-content {
+  box-shadow: 0 4px 10px 0 #0003, 0 4px 20px 0 #00000030;
+  background-color: #fff;
+}
+
+.left-top-section {
+  width: 62vw;
+  margin-bottom: 50px;
+}
+
+.left-section {
+  width: 100%;
+}
+
+.left-image-top {
+  background-image: url("../images/woods.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 35vh;
+}
+
+.left-image-bottom {
+  background-image: url("../images/bridge.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 35vh;
+}
+
+.emphassis-top,
+.empahssis-bottom {
+  color: #838280;
+}
+
+.left-top-details,
+.left-bottom-details {
+  padding: 0.1rem;
+  line-height: 1.5;
+  margin: 5px;
+}
+
+.left-read-me-top .more-top,
+.left-read-me-bottom .more-bottom {
+  border: 1px solid #ccc;
+  width: 120px;
+  padding: 1rem;
+  font-weight: 500;
+  border-radius: 3px;
+}
+
+.left-read-me-top .comment-top,
+.left-read-me-bottom .comment-bottom {
+  display: flex;
+  justify-content: right;
+  margin-top: -60px;
+  padding: 1rem;
+  letter-spacing: 1px;
+  gap: 5px;
+}
+
+.boldness-top {
+  background-color: #000;
+  color: #fff;
+  padding: 1px 5px;
+  margin-top: -7px;
+}
+
+.boldness-bottom {
+  border-radius: 50%;
+  background-color: #000;
+  color: #fff;
+  padding: 4px 10px;
+  margin-top: -7px;
+}
+
+.left-read-me-top .more-top:hover,
+.left-read-me-bottom .more-bottom:hover {
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+/* right */
+.right-top-content,
+.right-medium-content,
+.right-bottom-content {
+  margin-bottom: 50px;
+}
+
+.right-picture,
+.right-section,
+.right-middle-image {
+  width: 100%;
+}
+
+.right-medium-heading {
+  background-color: #f1f1f1;
+  padding: 0.5rem;
+  font-size: 20px;
+}
+
+.right-top-details {
+  margin: 15px;
+  line-height: 1.6;
+}
+
+.right-middle-image img {
+  width: 50px;
+}
+
+.bottom-right-paragraph p {
+  background-color: #f1f1f1;
+  font-size: 13px;
+  padding: 0.1rem;
+  margin: 5px;
+}
+
+.right-middle-image p {
+  display: flex;
+  border-bottom: 1px solid #cecaca;
+  padding: 0.5rem;
+  gap: 20px;
+}
+
+.right-middle-image p:hover {
+  background-color: #cecaca;
+}
+
+.bottom-right-heading {
+  padding: 0.5rem;
+  background-color: #f1f1f1;
+  margin-bottom: 15px;
+}
+
+.bottom-right-paragraph {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 1rem;
+}
+
+.bottom-right-paragraph .travel {
+  background-color: #000;
+  color: #fff;
+  font-size: 15px;
+}
+
+/* footer */
+.last-section {
+  background: #616161;
+  display: flex;
+  padding: 1rem 2rem;
+  color: #fff;
+}
+
+.directions {
+  display: flex;
+  gap: 10px;
+}
+
+.previous,
+.next {
+  background-color: #000;
+  padding: 1rem 2rem;
+}
+
+.previous {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.next:hover {
+  cursor: pointer;
+  background-color: #f1f1f1;
   color: #000;
 }
 
-footer {
-  background-color: #000;
-  color: #fff;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 50px;
-}
-
-footer .footer-nav {
+.footer-link {
   color: #fff;
 }
 
 /* responsiveness */
-@media screen and (max-width: 425px) {
-  .nav-heading {
-    display: none;
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
   }
 
-  .wedding-details {
+  .left-right {
     display: flex;
     flex-direction: column;
   }
 
-  .rsvp {
-    background-color: #fdd;
-    text-align: center;
+  .left-top-section {
+    width: 100%;
+  }
+
+  .left-section {
+    width: 100%;
+  }
+
+  .left-read-me-top .more-top,
+  .left-read-me-bottom .more-bottom {
+    border: 1px solid #ccc;
+    width: 15vw;
     padding: 1rem;
-    line-height: 2;
+    font-size: 2.1vw;
+    font-weight: 500;
   }
 
-  .rsvp-heading {
-    font-size: 20px;
-  }
-
-  .rsvp-paragraph {
-    font-size: 25px;
-    letter-spacing: 1px;
-    padding-bottom: 5px;
-  }
-
-  .rsvp .rsvp-button {
-    padding: 1rem;
-    font-size: 20px;
-    background-color: #f44336;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 10px;
+  .mingsum {
+    display: none;
   }
 }
